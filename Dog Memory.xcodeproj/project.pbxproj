@@ -19,7 +19,7 @@
 
 /* Begin PBXFileReference section */
 		A4AA683F246DE5E500AB1A22 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		AC0FE7FB20EE49220088A20A /* SimonSays_Memory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimonSays_Memory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0FE7FB20EE49220088A20A /* Dog Memory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dog Memory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC0FE7FE20EE49220088A20A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC0FE80020EE49220088A20A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		AC0FE80320EE49220088A20A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		AC0FE7FC20EE49220088A20A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC0FE7FB20EE49220088A20A /* SimonSays_Memory.app */,
+				AC0FE7FB20EE49220088A20A /* Dog Memory.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AC0FE7FA20EE49220088A20A /* SimonSays_Memory */ = {
+		AC0FE7FA20EE49220088A20A /* Dog Memory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC0FE81820EE49240088A20A /* Build configuration list for PBXNativeTarget "SimonSays_Memory" */;
+			buildConfigurationList = AC0FE81820EE49240088A20A /* Build configuration list for PBXNativeTarget "Dog Memory" */;
 			buildPhases = (
 				AC0FE7F720EE49220088A20A /* Sources */,
 				AC0FE7F820EE49220088A20A /* Frameworks */,
@@ -97,9 +97,9 @@
 			);
 			dependencies = (
 			);
-			name = SimonSays_Memory;
+			name = "Dog Memory";
 			productName = SimonSays_Memory;
-			productReference = AC0FE7FB20EE49220088A20A /* SimonSays_Memory.app */;
+			productReference = AC0FE7FB20EE49220088A20A /* Dog Memory.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -117,7 +117,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AC0FE7F620EE49210088A20A /* Build configuration list for PBXProject "SimonSays_Memory" */;
+			buildConfigurationList = AC0FE7F620EE49210088A20A /* Build configuration list for PBXProject "Dog Memory" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -130,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AC0FE7FA20EE49220088A20A /* SimonSays_Memory */,
+				AC0FE7FA20EE49220088A20A /* Dog Memory */,
 			);
 		};
 /* End PBXProject section */
@@ -342,7 +342,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AC0FE7F620EE49210088A20A /* Build configuration list for PBXProject "SimonSays_Memory" */ = {
+		AC0FE7F620EE49210088A20A /* Build configuration list for PBXProject "Dog Memory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC0FE81620EE49240088A20A /* Debug */,
@@ -351,7 +351,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC0FE81820EE49240088A20A /* Build configuration list for PBXNativeTarget "SimonSays_Memory" */ = {
+		AC0FE81820EE49240088A20A /* Build configuration list for PBXNativeTarget "Dog Memory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AC0FE81920EE49240088A20A /* Debug */,

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SimonSays_Memory.xcodeproj">
+      location = "self:/Users/sripsky/Downloads/SimonSays-master/Dog Memory.xcodeproj">
    </FileRef>
 </Workspace>
