@@ -309,7 +309,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = berlin.suho.One4th;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Dog Memory";
 				PROVISIONING_PROFILE = "3b2d1453-7710-4618-8fc9-8ef53e6da871";
 				PROVISIONING_PROFILE_SPECIFIER = XC_Wildcard;
 				SWIFT_VERSION = 4.0;
@@ -331,7 +331,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = berlin.suho.One4th;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Dog Memory";
 				PROVISIONING_PROFILE = "69b9816b-9ba5-4268-8492-1995007fde16";
 				PROVISIONING_PROFILE_SPECIFIER = One4thDistProfile;
 				SWIFT_VERSION = 4.0;

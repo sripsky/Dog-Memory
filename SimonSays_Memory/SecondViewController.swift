@@ -32,6 +32,8 @@
         @IBOutlet weak var btn2: UIButton!
         @IBOutlet weak var btn3: UIButton!
         
+        
+        
         let userDefault = UserDefaults.standard
       var correctAnswers: [Int] = []
       var userInputs: [Int] = []
@@ -170,6 +172,8 @@
         highScore = highestScore
         startBtn.setTitle("\(finalScore)", for: .normal)
         print("gameEnd")
+        displayMessage(message: "You lost!")
+       
       }
 
 
@@ -203,8 +207,13 @@
         startBtn.isEnabled = enabled
       }
 
-      
-
+        func displayMessage(message: String) {
+            let alert = UIAlertController(title: message, message: nil, preferredStyle: .alert)
+            let alertAction = UIAlertAction(title: "Reset", style: .default)
+            alert.addAction(alertAction)
+            present(alert, animated: true, completion: nil)
+            self.startBtn.setTitle("Go", for: .normal)
+        }
 
 
 
